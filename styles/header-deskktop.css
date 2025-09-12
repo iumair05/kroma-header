@@ -119,14 +119,10 @@
   transform: translateY(0);
 }
 
-/* mega menu dropdown */
-/* .shop-dropdown {
-  position: relative;
-} */
 
 .shop-dropdown-content {
   position: absolute;
-  top: 100%;
+  top: 75%;
   left: 0;
   width: 100vw;
   margin: 0 auto;
