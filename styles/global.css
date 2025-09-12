@@ -1,0 +1,81 @@
+:root {
+  --container-width: 1440px;
+  --background-color: #fffff6;
+  --text-color: #010101;
+}
+
+@font-face {
+  font-family: 'Instrument Sans';
+  src: url('/assets/fonts/Instrument-Sans/InstrumentSans-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Instrument Sans';
+  src: url('/assets/fonts/Instrument-Sans/InstrumentSans-Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Instrument Sans';
+  src: url('/assets/fonts/Instrument-Sans/InstrumentSans-SemiBold.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CircularXX';
+  src: url('/assets/fonts/Instrument-Sans/InstrumentSans-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Reckless Neue';
+  src: url('/assets/fonts/Reckless-Neue/RecklessNeue-Regular.woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Reckless Neue';
+  src: url('/assets/fonts/Reckless-Neue/RecklessNeue-Medium.woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Reckless Neue';
+  src: url('/assets/fonts/Reckless-Neue/RecklessNeue-SemiBold.woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Reckless Neue';
+  src: url('/assets/fonts/Reckless-Neue/RecklessNeue-Bold.woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Instrument Sans';
+}
+
+body {
+  color: #000;
+}
+
+ul {
+  list-style: none;
+
+}
+
+a {
+  text-decoration: none;
+}

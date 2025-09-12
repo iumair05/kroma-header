@@ -1,0 +1,15 @@
+.announcement-section {
+  background-color: #c2c4d1;
+  text-align: center;
+  min-height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.announcement-section p {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 13px;
+}
