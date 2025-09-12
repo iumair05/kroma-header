@@ -1,10 +1,50 @@
 .hero-section {
   position: relative;
   width: 100%;
-  min-height: 713px;
+  height: 100vh;
   margin: 0 auto;
   overflow: hidden;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-section .swiper-pagination {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  z-index: 2;
+}
+
+.hero-section .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #fff;
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.hero-section .swiper-pagination-bullet-active {
+  background: #e5604c;
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.hero-section .swiper-slide {
+  position: relative;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,9 +100,9 @@
 }
 
 .hero-section-content button:hover {
-    background-color: var(--text-color);
-    border: none;
-    color: white;
+  background-color: var(--text-color);
+  border: none;
+  color: white;
 }
 
 @media screen and (max-width: 1024px) {

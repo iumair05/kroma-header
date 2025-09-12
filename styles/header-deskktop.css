@@ -1,7 +1,11 @@
 /* Header */
 .header {
   background-color: var(--background-color);
-  padding: 12px 18px;
+  padding: 11px 18px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
 }
 
 .header-container {
@@ -40,8 +44,11 @@
   background-color: #eceadd;
   border-radius: 30px;
   transition: all 0.3s ease;
-  position: relative;
   cursor: pointer;
+}
+
+.nav-links > li:not(:first-child) {
+  position: relative;
 }
 
 .nav-links > li:hover {
@@ -113,13 +120,13 @@
 }
 
 /* mega menu dropdown */
-.shop-dropdown {
+/* .shop-dropdown {
   position: relative;
-}
+} */
 
 .shop-dropdown-content {
-  position: fixed;
-  top: 75px;
+  position: absolute;
+  top: 100%;
   left: 0;
   width: 100vw;
   margin: 0 auto;

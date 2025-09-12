@@ -18,3 +18,13 @@ document.querySelectorAll(".submenu-btn").forEach(btn => {
     parent.classList.toggle("open");
   });
 });
+
+
+// Banner Swiper
+  const swiper = new Swiper(".myHeroSwiper", {
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
