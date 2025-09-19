@@ -190,7 +190,7 @@
 }
 
 .reset-card {
-  max-width: 100%;
+  max-width: 310px;
   background-color: var(--primary-bg-color);
   border-radius: 10px;
   position: relative;
@@ -293,9 +293,9 @@
   width: fit-content;
 }
 
-  .reset-container .swiper-scrollbar {
-    display: none;
-  }
+.reset-container .swiper-scrollbar {
+  display: none;
+}
 
 @media screen and (max-width: 1356px) {
   .reset-container {
