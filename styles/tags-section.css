@@ -1,0 +1,46 @@
+.tags-section {
+  background-color: var(--primary-bg-color);
+}
+
+.tags-container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 60px;
+  padding: 36px 72px;
+}
+
+.tags-container .tag-card {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.tag-card img {
+  width: 76px;
+  height: 62px;
+}
+
+.tags-container .tag-card p {
+  text-align: center;
+  width: 100%;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 13px;
+  letter-spacing: -0.39px;
+  text-transform: uppercase;
+  color: #272e22;
+}
+
+@media screen and (max-width: 768px) {
+  .tags-container {
+    justify-content: center;
+    padding: 36px 60px;
+    gap: 50px;
+  }
+}

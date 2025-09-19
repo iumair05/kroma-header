@@ -5,7 +5,7 @@
   position: sticky;
   top: 0;
   left: 0;
-  z-index: 10;
+  z-index: 1000;
 }
 
 .header-container {
@@ -63,7 +63,7 @@
 .nav-links a,
 .nav-links span {
   text-decoration: none;
-  color: var(--text-color);
+  color: var(--text-primary-color);
   display: block;
 
   font-weight: 500;
@@ -163,7 +163,7 @@
   font-size: 24px;
   line-height: 24px;
   letter-spacing: -0.72px;
-  color: var(--text-color);
+  color: var(--text-primary-color);
 }
 
 .mega-column ul {

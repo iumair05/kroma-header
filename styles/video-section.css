@@ -1,0 +1,148 @@
+.video-section {
+  max-width: var(--container-width);
+  width: 100%;
+  margin: 36px auto 0 auto;
+  position: relative;
+}
+
+.video-section .video-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.video-header h3 {
+  font-family: Reckless Neue;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 35px;
+  letter-spacing: -0.7px;
+}
+
+.video-header .video-social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+}
+
+.video-container {
+  width: 100%;
+  margin-top: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.video-card {
+  max-width: 328px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.social-video {
+  width: 100%;
+  display: block;
+}
+
+.play-toggle {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background 0.3s;
+  border: 1px solid var(--text-primary-color);
+}
+
+.play-toggle:hover {
+  background: rgba(255, 255, 255, 1);
+}
+
+.play-toggle img {
+  width: 18px;
+  height: 18px;
+}
+
+.play-toggle .icon-pause {
+  display: none;
+}
+
+.video-card .video-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eceadd;
+  padding-right: 9px;
+}
+
+.video-text {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.video-card .video-content h4 {
+  font-family: Reckless Neue;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: -0.28px;
+}
+
+.video-card .video-content p {
+  margin-top: 3px;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 11px;
+}
+
+.video-content img:nth-of-type(2) {
+  width: 10px;
+  height: 6px;
+}
+
+.myVideoSwiper .swiper-slide {
+  max-width: 328px;
+}
+
+@media (min-width: 769px) {
+  .myVideoSwiper .swiper-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+
+  .myVideoSwiper .swiper-slide {
+    flex: 0 0 auto;
+    width: auto;
+  }
+
+  .video-container .swiper-scrollbar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .video-card {
+    padding-left: 18px;
+  }
+}

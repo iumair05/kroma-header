@@ -80,7 +80,7 @@
 }
 
 .mobile-nav-links > li {
-  border-top: 1px solid var(--text-color);
+  border-top: 1px solid var(--text-primary-color);
   padding: 12px 0;
 }
 
@@ -113,7 +113,7 @@
   font-weight: 500;
   font-size: 17px;
   line-height: 28px;
-  color: var(--text-color);
+  color: var(--text-primary-color);
 }
 
 /* Submenu content */
@@ -137,7 +137,7 @@
   font-weight: 500;
   font-size: 17px;
   line-height: 28px;
-  color: var(--text-color);
+  color: var(--text-primary-color);
 }
 
 /* Shop grid */
@@ -154,7 +154,7 @@
 
 /* Social icons */
 .social-icons {
-  border-top: 1px solid var(--text-color);
+  border-top: 1px solid var(--text-primary-color);
   padding-top: 18px;
   margin-top: 50px;
   display: flex;

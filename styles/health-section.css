@@ -1,0 +1,133 @@
+.health-section {
+  max-width: var(--container-width);
+  width: 100%;
+  margin: 36px auto;
+  overflow-x: hidden;
+}
+
+.health-section h3 {
+  font-family: Reckless Neue;
+  font-weight: 400;
+  text-align: center;
+  color: black;
+  font-size: 35px;
+  line-height: 35px;
+  letter-spacing: -0.7px;
+  text-align: center;
+}
+
+.health-container {
+  width: 100%;
+  margin-top: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.health-card {
+  position: relative;
+  display: inline-block;
+}
+
+.health-card img {
+  max-width: 258px;
+  min-height: 400px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+  transition: opacity 0.3s ease-in-out;
+  cursor: pointer;
+  display: block;
+}
+
+.health-card-text {
+  position: absolute;
+  bottom: 18px;
+  left: 18px;
+  right: 18px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.3);
+  padding: 18px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+
+.health-card .health-card-text p:first-of-type {
+  font-family: Reckless Neue;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+}
+
+.health-card-text p:nth-of-type(2) {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+}
+
+.health-swiper-container {
+  display: none;
+}
+
+@media screen and (max-width: 535px) {
+  .health-section {
+    overflow-x: visible;
+  }
+
+  .health-container {
+    display: none;
+  }
+
+  .health-swiper-container {
+    width: 100%;
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    position: relative;
+  }
+
+  .health-swiper-container .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  .myHealthSwiper .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    max-width: 273px;
+  }
+  .myHealthSwiper .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .health-swiper-container .swiper-scrollbar.swiper-scrollbar-horizontal {
+    bottom: -36px;
+    width: calc(100vw - 140px);
+    left: 70px;
+    right: 70px;
+  }
+
+  .health-swiper-container .swiper-scrollbar {
+    height: 2px;
+    border-radius: 10px;
+    background: #f3f3f3;
+  }
+
+  .health-swiper-container .swiper-scrollbar-drag {
+    background: orange;
+    border-radius: 10px;
+  }
+}

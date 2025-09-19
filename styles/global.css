@@ -1,7 +1,11 @@
 :root {
   --container-width: 1440px;
-  --background-color: #FFFFF6;
-  --text-color: #010101;
+  --background-color: #fffff6;
+  --text-primary-color: #010101;
+  --text-secondary-color: #272E22;
+  --primary-bg-color: #eceadd;
+  --border-color: #e5604c;
+  --card-hover-bg-color: #F6D2C1;
 }
 
 @font-face {
@@ -60,15 +64,46 @@
   font-style: normal;
 }
 
+
+@font-face {
+  font-family: 'Area Variable';
+  src: url('/assets/fonts/Area-variable/Area-Regular.otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Reckless Neue';
+  src: url('/assets/fonts/Area-variable/Area-Medium.otf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Reckless Neue';
+  src: url('/assets/fonts/Area-variable/Area-Semibold.otf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Reckless Neue';
+  src: url('/assets/fonts/Area-variable/Area-Bold.otf');
+  font-weight: 700;
+  font-style: normal;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: 'Instrument Sans';
+  color: var(--text-secondary-color);
 }
 
 body {
   overflow-x: hidden;
+  background-color: var(--background-color);
 }
 
 ul {
@@ -78,4 +113,24 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
+}
+
+.main-btn {
+  padding: 8px 30px;
+  font-family: Instrument Sans;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 13px;
+  letter-spacing: 0.65px;
+  text-transform: uppercase;
+  border: 1px solid var(--border-color);
+  border-radius: 100px;
+  color: var(--text-primary-color);
+}
+
+.main-btn:hover {
+  background-color: var(--text-primary-color);
+  border: none;
+  color: white;
 }
