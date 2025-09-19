@@ -206,7 +206,7 @@
 .reset-card-image img {
   display: block;
   width: 100%;
-  height: 100%;
+  min-height: 381px;
   object-fit: cover;
   object-position: center;
   transition: opacity 0.28s ease-in-out;
@@ -411,6 +411,13 @@
   .reset-container .swiper-scrollbar-drag {
     background: orange;
     border-radius: 10px;
+  }
+  
+   .reset-swiper-container .swiper-slide {
+    width: 310px;
+  } 
+  .reset-swiper-container .swiper-slide-active {
+    width: 310px;
   }
 }
 
