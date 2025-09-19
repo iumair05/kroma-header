@@ -9,28 +9,35 @@ const myResetSwiper = new Swiper(".myResetSwiper", {
     draggable: true,
   },
   breakpoints: {
-    0: {
+    320: {
+      slidesPerView: 1.2,
+      spaceBetween: 18,
+      centeredSlides: true,
+      initialSlide: 1,
+    },
+    375: {
       slidesPerView: 1.4,
-      centeredSlides: true,
-      spaceBetween: 16,
-      initialSlide: 1,
-
-    },
-    400: {
-      slidesPerView: 1.8,
-      spaceBetween: 20,
+      spaceBetween: 18,
       centeredSlides: true,
       initialSlide: 1,
-
     },
-    600: {
+    425: {
+      slidesPerView: 1.5,
+      spaceBetween: 18,
+      centeredSlides: true,
+      initialSlide: 1,
+    },
+    550: {
       slidesPerView: 2,
-      spaceBetween: 20,
+      spaceBetween: 18,
       centeredSlides: true,
     },
     768: {
       slidesPerView: 2.2,
       spaceBetween: 20,
+      centeredSlides: false,
     },
   },
 });
+
+

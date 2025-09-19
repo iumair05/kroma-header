@@ -3,6 +3,10 @@
   margin: 72px auto 0 auto;
 }
 
+.reset-header {
+  padding: 0 10px;
+}
+
 .reset-section h2 {
   font-family: Reckless Neue;
   font-weight: 400;
@@ -189,7 +193,14 @@
   position: relative;
 }
 
-.reset-card {
+/* .reset-card {
+  max-width: 310px;
+  background-color: var(--primary-bg-color);
+  border-radius: 10px;
+  position: relative;
+} */
+
+.myResetSwiper .swiper-slide {
   max-width: 310px;
   background-color: var(--primary-bg-color);
   border-radius: 10px;
@@ -199,8 +210,7 @@
 .reset-card-image {
   position: relative;
   width: 100%;
-  min-height: 357px;
-  max-height: 381px;
+  height: 100%;
 }
 
 .reset-card-image img {
@@ -324,7 +334,7 @@
   }
 
   .reset-right .reset-swiper-header {
-    justify-content: center;
+    justify-content: space-between;
   }
   .reset-swiper-container {
     margin-top: 36px;
@@ -383,6 +393,10 @@
     display: none;
   }
 
+  .reset-right .reset-swiper-header {
+    justify-content: center;
+  }
+
   .reset-right .reset-swiper-header p {
     margin-top: 9px;
     line-height: 18px;
@@ -390,9 +404,10 @@
     text-align: center;
   }
 
-  .reset-card {
-    max-width: 100%;
+  .myResetSwiper .swiper-slide {
+    max-width: 277px;
   }
+
 
   .reset-swiper-container .swiper-scrollbar.swiper-scrollbar-horizontal {
     bottom: -36px;
@@ -411,13 +426,6 @@
   .reset-container .swiper-scrollbar-drag {
     background: orange;
     border-radius: 10px;
-  }
-  
-   .reset-swiper-container .swiper-slide {
-    width: 310px;
-  } 
-  .reset-swiper-container .swiper-slide-active {
-    width: 310px;
   }
 }
 

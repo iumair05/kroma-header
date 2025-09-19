@@ -24,6 +24,13 @@
   justify-self: center;
 }
 
+.logo {
+  width: 143px;
+  height: 38px;
+  object-fit: cover;
+  background-position: center;
+}
+
 .right-row {
   justify-self: end;
   display: flex;
