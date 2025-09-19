@@ -206,7 +206,7 @@
 .reset-card-image img {
   display: block;
   width: 100%;
-  min-height: 381px;
+  min-height: 357px;
   object-fit: cover;
   object-position: center;
   transition: opacity 0.28s ease-in-out;
