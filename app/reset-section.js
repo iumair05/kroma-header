@@ -10,17 +10,21 @@ const myResetSwiper = new Swiper(".myResetSwiper", {
   },
   breakpoints: {
     0: {
-      slidesPerView: 1.1,
+      slidesPerView: 1.4,
       centeredSlides: true,
       spaceBetween: 16,
+      initialSlide: 1,
+
     },
     400: {
-      slidesPerView: 1.2,
+      slidesPerView: 1.8,
       spaceBetween: 20,
       centeredSlides: true,
+      initialSlide: 1,
+
     },
     600: {
-      slidesPerView: 1.4,
+      slidesPerView: 2,
       spaceBetween: 20,
       centeredSlides: true,
     },

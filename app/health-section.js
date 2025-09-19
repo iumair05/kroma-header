@@ -9,12 +9,14 @@ const myHealthSwiper = new Swiper(".myHealthSwiper", {
         320: {
             slidesPerView: 1.2,
             spaceBetween: 18,
-            centeredSlides: true
+            centeredSlides: true,
+            initialSlide: 1,
         },
         375: {
             slidesPerView: 1.4,
             spaceBetween: 18,
-            centeredSlides: true
+            centeredSlides: true,
+            initialSlide: 1,
         },
         600: {
             slidesPerView: 1.4,

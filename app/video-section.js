@@ -33,10 +33,7 @@ document.querySelectorAll('.video-card').forEach(card => {
 const myVideoSwiper = new Swiper(".myVideoSwiper", {
     slidesPerView: 1.2,
     spaceBetween: 0,
-    scrollbar: {
-        el: ".video-container .swiper-scrollbar",
-        draggable: true,
-    },
+
     breakpoints: {
         769: {
             slidesPerView: "auto",

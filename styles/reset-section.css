@@ -190,7 +190,7 @@
 }
 
 .reset-card {
-  max-width: 310px;
+  max-width: 100%;
   background-color: var(--primary-bg-color);
   border-radius: 10px;
   position: relative;
@@ -293,6 +293,10 @@
   width: fit-content;
 }
 
+  .reset-container .swiper-scrollbar {
+    display: none;
+  }
+
 @media screen and (max-width: 1356px) {
   .reset-container {
     justify-content: center;
@@ -328,7 +332,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  
   .reset-container {
     flex-direction: column;
     align-items: center;
@@ -386,11 +389,29 @@
     max-width: 100%;
     text-align: center;
   }
-  
+
   .reset-card {
     max-width: 100%;
-  } 
-  
+  }
+
+  .reset-swiper-container .swiper-scrollbar.swiper-scrollbar-horizontal {
+    bottom: -36px;
+    width: calc(100vw - 140px);
+    left: 70px;
+    right: 70px;
+  }
+
+  .reset-container .swiper-scrollbar {
+    height: 2px;
+    border-radius: 10px;
+    background: #f3f3f3;
+    display: block;
+  }
+
+  .reset-container .swiper-scrollbar-drag {
+    background: orange;
+    border-radius: 10px;
+  }
 }
 
 @media screen and (max-width: 640px) {

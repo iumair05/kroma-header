@@ -6,24 +6,27 @@ const mySellersSwiper = new Swiper(".mySellersSwiper", {
         prevEl: ".sellers-swiper-prev",
     },
     scrollbar: {
-        el: ".swiper-scrollbar",
+        el: ".sellers-swiper-container .swiper-scrollbar",
         draggable: true,
     },
     breakpoints: {
         320: {
             slidesPerView: 1.2,
             spaceBetween: 18,
-            centeredSlides: true
+            centeredSlides: true,
+            initialSlide: 1,
         },
         375: {
             slidesPerView: 1.4,
             spaceBetween: 18,
-            centeredSlides: true
+            centeredSlides: true,
+            initialSlide: 1,
         },
         425: {
             slidesPerView: 1.5,
             spaceBetween: 18,
-            centeredSlides: true
+            centeredSlides: true,
+            initialSlide: 1,
         },
         550: {
             slidesPerView: 2,
