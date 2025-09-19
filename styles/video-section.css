@@ -120,6 +120,7 @@
 
 .myVideoSwiper .swiper-slide {
   max-width: 328px;
+  width: 100%;
 }
 
 @media (min-width: 769px) {

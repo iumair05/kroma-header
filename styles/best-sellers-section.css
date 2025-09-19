@@ -80,6 +80,7 @@
 .seller-card:hover .hover-img {
   opacity: 1;
 }
+
 .seller-card:hover .main-img {
   opacity: 0;
 }

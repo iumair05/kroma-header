@@ -4,6 +4,10 @@ const myResetSwiper = new Swiper(".myResetSwiper", {
     prevEl: ".reset-swiper-prev",
     nextEl: ".reset-swiper-next",
   },
+  scrollbar: {
+    el: ".reset-swiper-container .swiper-scrollbar",
+    draggable: true,
+  },
   breakpoints: {
     0: {
       slidesPerView: 1.1,
